@@ -1,9 +1,8 @@
 import * as React from 'react';
-import { Translation } from 'react-i18next';
 import { ToastContainer, cssTransition } from 'react-toastify';
 import { Redirect, Route, Switch } from 'react-router-dom';
-import routes, { PATH, RouteConfig } from '~/pages/routes';
-import toast from '~/utils/toast';
+import routes, { PATH, RouteConfig } from '../../pages/routes';
+
 
 export interface AppProps {
   isLoggedIn: boolean;
