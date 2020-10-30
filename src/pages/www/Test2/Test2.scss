@@ -1,0 +1,41 @@
+@import '~/scss/variables.scss';
+
+.test2 {
+  width: 100%;
+  background: #2e294e;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.nation1 {
+  background: #2e294e url(/img/www/main/nation-test1.svg) no-repeat right 50px top 0px;
+  background-size: 870px;
+  height: 750px;
+}
+.nation2 {
+  background: #2e294e url(/img/www/main/nation-test2.svg) no-repeat right 110px top;
+  background-size: 930px;
+  height: 750px;
+}
+.nation3 {
+  background: #2e294e url(/img/www/main/nation-test3.svg) no-repeat right 0 top 0;
+  background-size: 870px;
+  height: 750px;
+}
+.textCenter {
+  text-align: center !important;
+  bottom: 30px;
+}
+.line {
+  display: block;
+  background: #fff;
+  width: 150px;
+  height: 3px;
+  margin-bottom: 10px;
+}
+
+.nation {
+  display: block;
+  font-size: 16px;
+  color: #fff;
+}

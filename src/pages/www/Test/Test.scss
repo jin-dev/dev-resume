@@ -1,0 +1,49 @@
+// @import '~/scss/variables.scss';
+
+.test {
+  font-size: 50px;
+  background-color: #efefef;
+}
+
+.sliderContainer {
+  width: 500px;
+  border: 1px solid #000000;
+  margin-left: 100px;
+}
+.sliderArrow {
+  color: #000000 !important;
+  background-color: #ffffff !important;
+}
+.sliderContent {
+  text-align: center;
+}
+.sliderdots {
+  color: #5d30a5;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  position: absolute;
+  bottom: -25px;
+  bottom: -1.5625rem;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+.sliderdots li {
+  position: relative;
+  display: inline-block;
+  margin: 0 0.3125rem;
+  padding: 0;
+}
+.sliderdots li,
+button {
+  position: relative;
+  display: inline-block !important;
+  margin: 0 0.3125rem;
+  padding: 0;
+}
